@@ -1,0 +1,121 @@
+
+.circle-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border: 3px solid #3498db; /* Viền xanh */
+}
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-attachment: fixed; /* Giữ ảnh cố định */
+    background-position: center;
+}
+h1{
+    height:100px;
+    width:fit-content;
+    marign: 0 auto;
+}
+.instagram-icon {
+    font-size: 40px;
+    color: #E4405F; /* Màu Instagram */
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px; /* Khoảng cách giữa các icon */
+}
+
+.social-icons a {
+    font-size: 40px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #E4405F; 
+}
+header {
+    background-color: #bf13b1;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #d82045; /* Màu nền khi di chuột qua */
+  }
+html {
+    scroll-behavior: smooth;
+}
+.daumuc {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(0, 200, 255);
+
+
+}
+.anhsothich{
+    width: 300px;
+    height: 300x;
+    border-radius: 15px;
+    border: 30px rgb(0, 255, 4);
+}
+h3 {
+    font-size: 30px;
+
+}
+h4{
+    font-size: 20px;
+    text-shadow: 3px 3px 5px rgb(13, 1, 1);
+}
+video{
+    width: 500px;
+    height:250px;
+    border-radius: 20px;
+    border:20px darkblue;
+}
+.custom-button {
+    background: linear-gradient(135deg, #75bfff, #c17eff);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-button:hover {
+    background: linear-gradient(135deg, #ff5c8a, #ff6a9f);
+}
+.anh1 {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    width: 40%;
+    padding: 50px;
+    margin:auto;
+
+}
